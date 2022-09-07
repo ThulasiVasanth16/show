@@ -1,15 +1,43 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-.container {
-  width: 100%;
-  height: 100vh;
+body {
+  background: rgba(0, 0, 0, 0.95);
+}
 
+.popover {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: none;
+  background-color: #fff;
+  margin: 50px;
+  padding: 50px;
+
+}
+
+.container-fluid {
+
+  position: fixed;
+  margin-top: -290px;
+  /*background-color: #023047;*/
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  text-align: center;
+
+
+}
+
+.slider {
+  width: 40%;
+  height: 20vh;
+  overflow: hidden;
+  border-radius: 10px;
 }
